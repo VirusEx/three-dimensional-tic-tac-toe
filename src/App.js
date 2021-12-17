@@ -10,10 +10,16 @@ class App extends Component {
       <div className="App">
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
+          <h2>Final for Frontend Development</h2>
         </div>
+        
+        
         <p className="App-intro">
-          <Game></Game>
+        <div className="flexbox-container">
+        <div><Game></Game></div>
+        <div><Game></Game></div>
+        <div><Game></Game></div>
+        </div>
         </p>
       </div>
     );
